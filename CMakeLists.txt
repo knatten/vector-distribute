@@ -1,0 +1,5 @@
+cmake_minimum_required(VERSION 3.10.3)
+project(vector-partition)
+set(CMAKE_CXX_STANDARD 17)
+set(CMAKE_CXX_FLAGS " -Wall -Wextra -Weffc++ -Wpedantic -I/usr/local/opt/llvm/include")
+add_executable(main main.cpp tests.cpp)
